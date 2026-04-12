@@ -38,9 +38,9 @@ jobs:
 
     - name: Docker build 
       run: |
-        docker build -t netflix_frontend:latest .
+        docker build -t netflix-frontend .
 
     - name: Docker push
       run: |
-        docker tag netflix_frontend:latest 348230509416.dkr.ecr.us-east-2.amazonaws.com/netflix_frontend:${GITHUB_RUN_NUMBER}
-        docker push 348230509416.dkr.ecr.us-east-2.amazonaws.com/netflix_frontend:${GITHUB_RUN_NUMBER}
+        docker tag netflix-frontend:latest 251251171228.dkr.ecr.us-west-1.amazonaws.com/netflix-frontend:latest
+        docker push 251251171228.dkr.ecr.us-west-1.amazonaws.com/netflix-frontend:latest
