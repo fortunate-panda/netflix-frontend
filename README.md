@@ -1,10 +1,4 @@
-# 🎬 Netflix Frontend
-
-**By DigitalWitch | Cloud • DevOps • Security**
-
----
-
-## 📌 Overview
+##  Overview
 
 This project is the frontend application for the Netflix-style platform. It connects to the backend API and provides the user interface for interacting with the system.
 
@@ -12,7 +6,7 @@ The frontend should be deployed on a **separate Ubuntu server** from the backend
 
 ---
 
-## ⚙️ Prerequisites
+##  Prerequisites
 
 Before running the frontend application, make sure the following are installed on your Ubuntu server:
 
@@ -21,7 +15,7 @@ Before running the frontend application, make sure the following are installed o
 
 ---
 
-## 🐧 Install Node.js and npm on Ubuntu
+##  Install Node.js and npm on Ubuntu
 
 Update your package list and install Node.js and npm:
 
@@ -40,7 +34,7 @@ npm -v
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the frontend repository
 
@@ -65,7 +59,7 @@ npm i
 
 ---
 
-## 🔗 Configure the Backend API
+##  Configure the Backend API
 
 Before starting the frontend, update the API configuration so it points to your backend server.
 
@@ -110,7 +104,7 @@ http://your-domain.com
 
 ---
 
-## ▶️ Run the Frontend Application
+## Run the Frontend Application
 
 After installing dependencies and updating the backend URL, start the frontend server:
 
@@ -120,7 +114,7 @@ npm start
 
 ---
 
-## 🌍 Access the Application
+##  Access the Application
 
 Once the application is running, it will usually be available at:
 
@@ -136,7 +130,7 @@ http://<server-ip>:3000
 
 ---
 
-## ✅ Important Notes
+##  Important Notes
 
 * Make sure the backend server is already running and accessible.
 * Confirm that the backend URL in `axiosConfig.js` is correct.
@@ -146,7 +140,7 @@ http://<server-ip>:3000
 
 ---
 
-## 💡 Optional Improvement
+##  Optional Improvement
 
 For better flexibility, you can use an environment variable instead of hardcoding the backend URL.
 
@@ -171,7 +165,7 @@ export default axios.create({
 
 ---
 
-## 📦 Summary
+##  Summary
 
 Frontend setup steps:
 
@@ -183,21 +177,3 @@ Frontend setup steps:
 
 ---
 
-## 🎓 Final Words
-
-Good luck with your studies and project deployment.
-
-**— DigitalWitch**
-
-
-Please Clone the Code for the FullStack app
-1) Frontend 
-https://github.com/digitalwitchdemo/netflix_frontend.git
-
-2) Backend
-https://github.com/digitalwitchdemo/netflix_backend.git
-
-make sure you deploy the database before starting the backend.
-
-Finally. 
-Note: make sure you deploy the database before starting the backend.
